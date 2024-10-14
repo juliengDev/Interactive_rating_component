@@ -8,6 +8,7 @@
   background: var(--color-Black);
   border-radius: 30px;
   @include respond(tab-land) {
+    margin: 19.5rem 0 0;
     max-width: 41.2rem;
   }
   & .form-vote {

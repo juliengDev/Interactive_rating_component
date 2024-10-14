@@ -197,6 +197,7 @@ button {
 }
 @media only screen and (min-width: 75em) {
   .main {
+    margin: 19.5rem 0 0;
     max-width: 41.2rem;
   }
 }
