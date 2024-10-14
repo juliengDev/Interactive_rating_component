@@ -19,8 +19,8 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: Interactive Rating Component
-- Solution URL: GitHub Repository
+[Live Site URL](https://juliengdev-interactive-rating.netlify.app/)
+
 
 ## My Process
 
