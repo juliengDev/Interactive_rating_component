@@ -1,0 +1,38 @@
+/** 
+
+	100 : Thin
+	•	200 : Extra Light (Ultra Light)
+	•	300 : Light
+	•	400 : Normal
+	•	500 : Medium
+	•	600 : Semi Bold (Demi Bold)
+	•	700 : Bold
+	•	800 : Extra Bold (Ultra Bold)
+	•	900 : Black (Heavy)
+  
+  */
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Overpass", sans-serif;
+  background-color: var(--color-Dark-Blue);
+  color: var(--color-Light-Grey);
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 24px;
+}
+
+.heading-large {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.heading-medium {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.rating {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}

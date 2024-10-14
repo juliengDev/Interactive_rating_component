@@ -1,0 +1,125 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  max-width: 32.7rem;
+  margin: 15.4rem 2.4rem 0;
+  background: var(--color-Black);
+  border-radius: 30px;
+
+  & .form-vote {
+    margin: 2.4rem 2.4rem 3.2rem;
+  }
+
+  & img {
+    padding: 2rem;
+    border-radius: 50%;
+    background-color: var(--color-Dark-Blue);
+    margin-bottom: 3rem;
+  }
+  & h1 {
+    color: var(--color-Pure-White);
+    margin-bottom: 0.7rem;
+  }
+  & p {
+    margin-bottom: 2.4rem;
+  }
+  & .rating-list {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 2.4rem;
+
+    & li {
+      list-style-type: none;
+    }
+  }
+
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 300ms ease-in;
+    outline: none;
+  }
+
+  .rating-btn {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    line-height: 24px;
+    letter-spacing: 0.17px;
+    background-color: var(--color-Dark-Blue);
+  }
+
+  .rating-btn:hover,
+  .submit-btn:hover {
+    background-color: var(--color-Pure-White);
+    color: var(--color-Dark-Blue);
+  }
+
+  .rating-btn:focus-visible,
+  .submit-btn:focus-visible {
+    outline: 2px solid #3498db;
+    outline-offset: 4px;
+  }
+
+  .rating-btn:active,
+  .rating-btn:focus,
+  .submit-btn:active,
+  .submit-btn:focus {
+    background-color: var(--color-Orange);
+    color: var(--color-Dark-Blue);
+  }
+
+  & .submit-btn {
+    width: 100%;
+    text-transform: uppercase;
+    padding: 1.4rem 0;
+    background-color: var(--color-Orange);
+    color: var(--color-Very-Dark-Blue);
+    border-radius: 22.5px;
+  }
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 27.9rem;
+  width: 100%;
+  margin: 3.4rem 2.4rem 3.7rem;
+  & img {
+    margin-bottom: 2.4rem;
+  }
+  & h2 {
+    background-color: var(--color-Dark-Blue);
+    color: var(--color-Orange);
+    padding: 0.5rem 1.2rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 22px;
+    border-radius: 22.5px;
+    margin-bottom: 2.4rem;
+    & span {
+      font-size: 1.4rem;
+      font-weight: 400;
+    }
+  }
+  & h3 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--color-Pure-White);
+    margin-bottom: 1rem;
+  }
+  & p {
+    font-size: 1.4rem;
+    line-height: 22px;
+    text-align: center;
+  }
+}

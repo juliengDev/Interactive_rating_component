@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <title>Julien Gilbert | Interactive rating component</title>
+  <script type="module" crossorigin src="/assets/index-Bu5Y_MiI.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index.css">
+</head>
+
+<body>
+  <main class="main ">
+    <form class="form-vote" aria-labelledby="vote-label" aria-describedby="vote-description">
+      <img src="/images/icon-star.svg" alt="icon star">
+      <h1 class="heading-large">How did we do?</h1>
+      <p>Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!</p>
+      <ul class="rating-list" aria-labelledby="rating-label">
+        <li>
+          <button class="rating-btn btn" aria-label="Rate 1 star">1</button>
+        </li>
+        <li>
+          <button class="rating-btn btn" aria-label="Rate 2 stars">2</button>
+        </li>
+        <li>
+          <button class="rating-btn btn" aria-label="Rate 3 stars">3</button>
+        </li>
+        <li>
+          <button class="rating-btn btn" aria-label="Rate 4 stars">4</button>
+        </li>
+        <li>
+          <button class="rating-btn btn" aria-label="Rate 5 stars">5</button>
+        </li>
+      </ul>
+      <button type="submit" class="submit-btn btn" aria-label="Submit your vote">Submit</button>
+    </form>
+    <div role="dialog" aria-labelledby="modal-title" aria-describedby="modal-description" class="modal hidden"
+      aria-hidden="true">
+      <img src="/images/illustration-thank-you.svg" alt="Illustration thank you">
+      <h2 id="modal-title">You selected <span id="rating">4</span> out of <span id="total">5</span></h2>
+      <h3>Thank you!</h3>
+      <p id="modal-description">We appreciate you taking the time to give a rating. If you ever need more support,
+        don’t hesitate to get in touch!</p>
+    </div>
+  </main>
+  <footer class="attribution">
+    Challenge by <a class="attribution__credit" href="https://www.frontendmentor.io?ref=challenge"
+      target="_blank">Frontend Mentor</a>.
+    Coded by <a class="attribution__credit" href="https://www.frontendmentor.io/profile/juliengDev">Julien Gilbert</a>.
+  </footer>
+</body>
+
+</html>
